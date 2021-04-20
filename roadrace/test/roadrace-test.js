@@ -4,7 +4,7 @@ var assert = require('chai').assert;
 
 describe("Roadrace", function() {
 
-  it('should have an name and location', function() {
+  it('should have a name and location', function() {
     var race = new Roadrace({title: 'Rock N Roll Half Marathon', city: "Las Vegas"});
 
     assert.equal(race.name, 'Rock N Roll Half Marathon');
